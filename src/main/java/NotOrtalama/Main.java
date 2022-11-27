@@ -9,6 +9,7 @@ public class Main {
         int mat, fizik, kimya, turkce, tarih, muzik;
         Scanner input = new Scanner(System.in);
 
+
         System.out.print("Matematik notunuz: ");
         mat = input.nextInt();
 
@@ -26,6 +27,7 @@ public class Main {
 
         System.out.print("Müzik notunuz: ");
         muzik = input.nextInt();
+
 
         int toplam = mat + fizik + kimya + turkce + tarih + muzik;
         double ortalama=toplam/6;

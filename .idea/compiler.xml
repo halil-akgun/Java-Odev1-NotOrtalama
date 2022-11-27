@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NotOrtalama" />
+        <module name="01-Java-Odev1-NotOrtalama" />
       </profile>
     </annotationProcessing>
   </component>
