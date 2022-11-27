@@ -30,7 +30,7 @@ public class Main {
 
 
         int toplam = mat + fizik + kimya + turkce + tarih + muzik;
-        double ortalama=toplam/6;
+        double ortalama=toplam/6.0;
 
         boolean gectiMi = (ortalama > 60);
         String kontrol = gectiMi ? "Sınıfı Geçtiniz" : "Sınfta Kaldınız";
